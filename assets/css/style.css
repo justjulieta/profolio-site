@@ -8,8 +8,7 @@ html {
 
 /* Children image */
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("./images/childrenplaying.jpg");
+  background-image: url(./images/childrenplaying.jpg);
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -78,7 +77,7 @@ main {
 }
 
 img {
-  border-radius: 15%;
+  border-radius: 20%;
   border: 1px solid #000;
 }
 
@@ -103,7 +102,7 @@ textarea {
 
 input[type="submit"] {
   background-color: #feb200;
-  color: white;
+  color: #fff;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -125,8 +124,8 @@ input[type="submit"]:hover {
 
 /* Footer */
 footer {
-  background-color: black;
-  color: white;
+  background-color: #74C9D6;
+  color: #fff;
   padding: 20px;
   margin-top: 40px;
   width: 100%;
