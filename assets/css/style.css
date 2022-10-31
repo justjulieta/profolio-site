@@ -1,12 +1,10 @@
-body,
-
 .row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-html {
+body {
   height: 100%;
   background-color: #fff;
   margin: 0 auto;
