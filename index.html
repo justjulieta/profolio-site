@@ -5,97 +5,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>St James Babysitting</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Julieta Ramirez-Solis Nguyen</title>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="topnav">
-        <a href="#top">Back to Top</a>
-        <a href="#Teachers">Teachers</a>
-        <a href="#contact">contact</a>
-    </nav>
-
-    <header id="top" title="St James Teahers">
-        <div id="teacher">
-            <h1>Meet Our Teachers</h1>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" onClick="navScroller('display-5')" href="#">About Me<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="#">My Work</a>
+                <a class="nav-item nav-link active" href="#">Contact Me</a>
+              </div>
+            </div>
+          </nav>      
+          <hr class="featurette-divider">
+      </header>
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">About Me</h2>
+          <p class="lead">I'm  a student web developer at the University of Oregon's coding bootcamp. Outside of being a student, I enjoy painting and taking care of my plants. 
+              Currently, I'm employed at St James Child Development Center.</p>
         </div>
-    </header>
-    
-    <!-- Information w/ images -->
-    <main class="teacher-section" id="teachers">
-        <div class="teachers">
-            <h2>Ellie Galvan Ruiz</h2>
-            <img src="./assets/images/ellie.jpg" alt="" height="250px" width="200px"
-                 <blockquote>
-                <p>Ellie has been a teacher at St James for almost 5 years. 
-                    She hold a Bachelor's degree in social work from Portland State University. 
-                    Though she works with all age groups, her focus is on children between two and five. 
-                    Can also work with multiple children.</p>
-            </blockquote>
-            <strong>Information:</strong>
-            <ul id="info">
-                <li>Available before school, weekdays after 6, and Sundays.</li>
-                <li>Email: ellie.ruiz5@gmail.com</li>
-                <li>Phone Number:(503)991-2534</li>
-            </ul>
-        <div class="teachers">
-            <h2>Julieta Ramirez Solis Nguyen</h2>
-            <img src="./assets/images/julieta.jpg" alt="" height="250px" width="200px"
-            <blockquote>
-                <p>Julie is both an infant and mobile at our school. 
-                    She had been with us for 4.5 years and is currently attending a coding bootcamp through U of O. 
-                    Is able to work with all ages and up to two children at a time.</p>
-            </blockquote>
-            <strong>Information:</strong>
-            <ul id="info">
-                <li>Only available on weekends.</li>
-                <li>Email: julieta.ramirez27@gmail.com.</li>
-                <li>Phone Number: (971)864-7315</li>
-            </ul>
+            .</p>
+          <img class="featurette-image img-fluid mx-auto rounded-circle" data-src="holder.js/250x250/auto" alt="250x250" src="/assets/images/profile.jpg" data-holder-rendered="true" style="width: 250px; height: 250px;">
         </div>
-        <div class="teachers">
-            <h2>Lulu Fletcher</h2>
-            <img src="./assets/images/lulu.jpg" alt="" height="250px" width="200px"            
-                 <blockquote>
-                <p>Lulu recently moved from California to attend Portland State University. 
-                    They have experience with children of various age groups and can take care of up to 3 children.</p> 
-            </blockquote>
-                <strong>Information:</strong>
-            <ul id="info">
-                <li>Available before and after school and weekends.</li>
-                <li>Email: flulu@pdx.edu</li>
-                <li>Phone Number: +1(510)675-2439</li>
-            </ul>
+    </div>
+    <hr class="featurette-divider">
+        <br>           
+      <div class="container work">
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <h2>Heading</h2>
+            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <h2>Heading</h2>
+            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <h2>Heading</h2>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+        <hr class="featurette-divider">
+          <div class="container">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
         </div>
-    </main>
-
-    <!-- Contact Us -->
-    <section class="Contact" id="info">
-        <h2>Contact Us</h2>
-        <form action="action_page.php">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your first name...">
-          
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
-          
-            <label for="#">Prefered Teacher</label>
-            <select id="#"Prefered Teacher="#">
-                <option value="Ellie">Ellie</option>
-                <option value="Julieta">Julieta</option>
-                <option value="Lulu">Lulu</option>
-            </select>
-            
-            <label for="cinfo">Child's Information</label>
-            <input type="text" id="cinfo" name="childinformation" placeholder="Child's age/name and babysitting dates...">
-          
-            <input type="submit" value="Submit">
-        </form>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>Thank you for choosing us!</p>
-    </footer>
 </body>
 </html>
